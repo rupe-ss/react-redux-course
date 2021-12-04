@@ -1,5 +1,4 @@
 import './App.css';
-import SimpleReduxStore from './redux/SimpleReduxStore';
 
 function App() {
     return (
