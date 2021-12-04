@@ -7,7 +7,6 @@ function App() {
             className='App'
             style={{ color: 'red', fontWeight: 'bold', fontSize: 40 }}>
             Header
-            <SimpleReduxStore />
         </div>
     );
 }
