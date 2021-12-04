@@ -1,4 +1,5 @@
 import './App.css';
+import SimpleReduxStore from './redux/SimpleReduxStore';
 
 function App() {
     return (
@@ -6,6 +7,7 @@ function App() {
             className='App'
             style={{ color: 'red', fontWeight: 'bold', fontSize: 40 }}>
             Header
+            <SimpleReduxStore />
         </div>
     );
 }
