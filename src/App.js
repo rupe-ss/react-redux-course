@@ -1,6 +1,6 @@
 import './App.css';
 import { useSelector, useDispatch } from 'react-redux';
-import { increment, decrement } from './actions/index';
+import { increment, decrement, loggedIn } from './actions/index';
 
 function App() {
     const counter = useSelector((state) => state.counter);
@@ -23,6 +23,13 @@ function App() {
                 -
             </button>
 
+            <div>
+                <button
+                    style={{ padding: '10px' }}
+                    onClick={() => dispatch(loggedIn())}>
+                    LoginIn
+                </button>
+            </div>
             {isLogged ? <div> Logged In </div> : ''}
         </div>
     );
