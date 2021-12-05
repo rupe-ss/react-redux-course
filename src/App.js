@@ -13,7 +13,7 @@ function App() {
                 {counter}
             </div>
             <button
-                onClick={() => dispatch(increment())}
+                onClick={() => dispatch(increment(5))}
                 style={{ padding: '10px' }}>
                 +
             </button>
