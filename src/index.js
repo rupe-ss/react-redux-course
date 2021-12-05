@@ -13,7 +13,7 @@ const globleStore = createStore(
 );
 
 ReactDOM.render(
-    <Provider>
+    <Provider store={globleStore}>
         <App />
     </Provider>,
     document.getElementById('root')
